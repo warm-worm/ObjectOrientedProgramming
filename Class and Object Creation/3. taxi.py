@@ -12,7 +12,7 @@ class TaxiRide:
         print(f'Receipt:')
         print(f'Distance: {self.distance}km.')
         print(f'Rate: {self.rate_per_km}€/km.')
-        print(f'Fare: {self.fare}€.')
+        print(f'Fare: €{self.fare}.')
 
 def main():
     # your program
